@@ -6,18 +6,18 @@ module.exports = {
     info: {
       prefix: '?',
       token: '',
-      invLink: 'https://discord.com/api/oauth2/authorize?client_id=&permissions=8&scope=bot%20applications.commands',
-      privacy: 'https://github.com/AryptonXD/Resist/blob/main/ResistPrivacyPolicy.md',
-      terms: 'https://github.com/AryptonXD/Resist/blob/main/ResistTermsAndConditions.md',
+      invLink: 'https://discord.com/api/oauth2/authorize?client_id=${}&permissions=8&scope=bot%20applications.commands',
+      privacy: 'https://discord.gg/codersplanet',
+      terms: 'https://discord.gg/codersplanet',
     },
     presence: {
       name: status,
       type: 'LISTENING',
-      url: 'https://twitch.tv/teamkronix'
+      url: 'https://twitch.tv/axo'
     },
     credits: {
       developerId: '1219309281011171390',
-      supportServer: 'https://discord.gg/teamkronix'
+      supportServer: 'https://discord.gg/codersplanet'
     },
   }
 }
