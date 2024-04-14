@@ -97,11 +97,11 @@ async function updateGuildPremiumStatus() {
         nightmodeData.nightmoderoleslist.splice(3);
         nightmodeData.nightmodebypasslist.splice(3);
         await client.db15.get(`${guild.id}_nightmode`, nightmodeData);
-        console.log(`Kronix | Guild ${guild.name} (${guild.id}) premium subscription has expired.`);
+        console.log(`AxoCoder | Guild ${guild.name} (${guild.id}) premium subscription has expired.`);
       }
     }
   } catch (error) {
-    console.error('Kronix | Error updating guild premium status:', error);
+    console.error('AxoCoder | Error updating guild premium status:', error);
   }
 }
 
@@ -145,8 +145,8 @@ function setupClient(client) {
 
 client.on("ready", async (client) => {
   setupClient(client);
-  console.log(`Kronix | Provided By Axo Coder`)
-  console.log(`Kronix | Logged in as ${client.user.tag}`);
+  console.log(`Axo | Provided By Axo Coder`)
+  console.log(`AxoCoder | Logged in as ${client.user.tag}`);
   setInterval(updateGuildPremiumStatus, 60000);
 });
 
