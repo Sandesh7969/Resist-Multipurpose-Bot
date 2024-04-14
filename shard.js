@@ -12,7 +12,7 @@ const manager = new ShardingManager('./index.js', {
 });
 
 manager.on('shardCreate', (shard) => {
-  console.log(`Kronix | Launched shard ${shard.id}`);
+  console.log(`Axo | Launched shard ${shard.id}`);
 });
 
 manager.spawn().catch(console.error);
