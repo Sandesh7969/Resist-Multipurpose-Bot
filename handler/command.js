@@ -6,8 +6,8 @@ module.exports = (client) => {
   let commandCount = loadCommands(client);
   let eventCount = loadEvents(client);
 
-  console.log(`Kronix | Loaded ${commandCount + 145} commands.`);
-  console.log(`Kronix | Loaded ${eventCount} events.`);
+  console.log(`Axo | Loaded ${commandCount} commands.`);
+  console.log(`Axo | Loaded ${eventCount} events.`);
 };
 
 function loadCommands(client) {
