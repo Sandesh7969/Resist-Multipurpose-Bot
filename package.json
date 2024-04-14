@@ -14,6 +14,7 @@
         "discord.js": "^13.16.0",
         "dokdo": "^0.5.1",
         "fs": "^0.0.1-security",
+        "http": "latest",
         "is-url": "^1.2.4",
         "moment": "^2.29.4",
         "ms": "^2.1.3",
