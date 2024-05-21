@@ -57,13 +57,13 @@ module.exports = {
         .setColor(client.color)
         .setAuthor(client.user.username, client.user.displayAvatarURL({ dynamic: true }))
         .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
-    	.setDescription(`Resist Bot - Your Discord server's all-in-one solution. Featuring Antinuke, Automod, Autorole, Welcome, Leave, Boost-Message, Custom-Roles, Voice-Roles, Nightmode, Media-Channels, Ignore-Channels, Extra Owner/Admin and more. Use '?' prefix to empower your server.`)
+    	.setDescription(`Supreme - Your Discord server's all-in-one solution. Featuring Antinuke, Automod, Autorole, Welcome, Leave, Boost-Message, Custom-Roles, Voice-Roles, Nightmode, Media-Channels, Ignore-Channels, Extra Owner/Admin and more. Use '?' prefix to empower your server.`)
      	.addField("__Basic Information__", `**NodeJs Version**: v${process.version.slice(1)}\n**Library**: [discord.js](https://discord.js.org/)`)
-		.addField("__Links__", `[Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands) : [Support](https://discord.gg/teamkronix) : [Vote](https://top.gg/bot/${client.user.id}/vote)`)
+		.addField("__Links__", `[Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands) : [Support](https://discord.gg/GPzYFx7zfe) : [Vote](https://top.gg/bot/${client.user.id}/vote)`)
         .setFooter(client.user.username, client.user.displayAvatarURL({ dynamic: true }))
 
     const embed2 = createEmbed([
-      { name: `__Providers__`, value: `- Team Kronix` },
+      { name: `__Provider__`, value: `- Supreme` },
     ]);
 
     const messageComponent = await message.channel.send({ embeds: [embed1], components: [button1, button] });
