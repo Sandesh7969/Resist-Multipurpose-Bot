@@ -36,67 +36,67 @@ module.exports = {
           {
             label: 'Home',
             value: 'h1',
-            emoji: "1156273221201567814",
+            emoji: "1242711265235697664",
             description: 'See Home Page'
           },
           {
             label: 'Antinuke',
             value: 'h2',
-            emoji: "1133381983926493245",
+            emoji: "1242708325116674168",
             description: 'See the antinuke Commands'
           },
           {
             label: 'Automod',
             value: 'h3',
-            emoji: "1147153419975528532",
+            emoji: "1242708367193931817",
             description: 'See the Automod Commands'
           },
           {
             label: 'Moderation',
             value: 'h4',
-            emoji: "1132996366151462932",
+            emoji: "1242708450635415592",
             description: 'See the Moderation Commands'
           },
           {
             label: 'Welcome',
             value: 'h5',
-            emoji: "1147556301707161630",
+            emoji: "1242709175616929804",
             description: 'See the Welcome Commands'
           },
           {
             label: 'Server',
             value: 'h6',
-            emoji: "1147775862347943936",
+            emoji: "1242709416793608252",
             description: 'See the Server Commands'
           },
           {
             label: 'Voice Role',
             value: 'h7',
-            emoji: "1133397943030906941",
+            emoji: "1242709564051423243",
             description: 'See the Voice Role Commands'
           },
           {
             label: 'Custom Roles',
             value: 'h8',
-            emoji: "1132996403023585320",
+            emoji: "1242709606556237884",
             description: 'See the Custom Roles Commands'
           },
           {
             label: 'Media',
             value: 'h9',
-            emoji: "1149691570308796427",
+            emoji: "1242709760369758229",
             description: 'See the Media Commands'
           },
           {
             label: 'Games',
             value: 'h10',
-            emoji: "1147859222114078781",
+            emoji: "1242709832516112446",
             description: 'See the Games Commands'
           },
           {
             label: 'Utility',
             value: 'h11',
-            emoji: "1132996529452494899",
+            emoji: "1242709870407323700",
             description: 'See the Utility Commands'
           },
         ])
@@ -110,7 +110,7 @@ module.exports = {
           {
             label: 'Home',
             value: 'h31',
-            emoji: "1062832533894602762",
+            emoji: "1242711265235697664",
             description: 'See Home Page'
           },
         ])
