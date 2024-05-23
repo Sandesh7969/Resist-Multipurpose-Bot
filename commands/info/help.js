@@ -126,16 +126,16 @@ module.exports = {
 - Support Server: [${client.user.username} HQ](${Settings.bot.credits.supportServer})`)
       .addField(
         '__Resist Modules__',
-        `${emoji.id.antinuke} Antinuke
-${emoji.id.automod} Automod
-${emoji.id.moderation} Moderation
-${emoji.id.welcome} Welcome
-${emoji.id.ignore} Server
-${emoji.id.voiceroles} Voice Roles
-${emoji.id.customroles} Custom Role
-${emoji.id.media} Media
-${emoji.id.games} Games
-${emoji.id.utility} Utility`, false)
+        `<:_:1207206417568628746> Antinuke
+<:_:1225059939928641578> Automod
+<:_:1225406714132566028> Moderation
+<:_:1242709142519676958> Welcome
+<:_:1207298803389169685> Server
+<:_:1225404693036138547> Voice Roles
+<:_:1225408072437071963> Custom Role
+<:_:1225074050121072704> Media
+<:_:1225406940729839636> Games
+<:_:1225405091935424533> Utility`, false)
       .addField(
         '__Links__',
         `- Invite ${client.user.username} from [Here](${Settings.bot.credits.supportServer}) if you need help
